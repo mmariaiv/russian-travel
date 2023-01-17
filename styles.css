@@ -1,0 +1,71 @@
+.page {
+	background-color: #2a2c2f;
+	color: white;
+	font-family: "Inter";
+	margin: 0 auto;
+	padding: 0;
+	max-width: 1280px;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	width: 1184px;
+	padding-top: 28px;
+	margin: 0 auto;
+	padding-bottom: 56px;
+}
+
+.header__logo {
+	width: 176px;
+	height: 52px;
+}
+
+.header__lang-links {
+	gap: 18px;
+	display: flex;
+}
+
+.header__lang-link {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 28px;
+	color: white;
+	text-decoration: none;
+}
+
+.lead {
+	margin: 0 auto;
+	width: 984px;
+	padding: 0;
+}
+
+.lead__title {
+	font-style: normal;
+	font-weight: 900;
+	font-size: 96px;
+	line-height: 100px;
+	text-align: center;
+}
+
+.lead__subtitle {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 36px;
+	text-align: center;
+}
+
+.lead__image {
+	width: 984px;
+	height: 615px;
+}
+
+.lead__caption {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 10px;
+	line-height: 14px;
+	letter-spacing: 1.5px;
+}
