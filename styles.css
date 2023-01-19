@@ -215,6 +215,8 @@
 	grid-area: paragraph;
 }
 
+/* что тут блять сделать то нахуй */
+
 .cover {
 	padding: 0 0 92px 0;
 	margin: 0 auto;
@@ -235,6 +237,10 @@
 
 .cover__description {
 	align-items: center;
+	position: absolute;
+	top: 245px;
+	left: 312px;
+	/* ???? */
 }
 
 .cover__title {
