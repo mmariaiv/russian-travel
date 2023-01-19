@@ -220,8 +220,8 @@
 .cover {
 	padding: 0 0 92px 0;
 	margin: 0 auto;
-	display: flex;
-	justify-content: center;
+	/* display: flex;
+	justify-content: center; */
 }
 
 .cover__background {
@@ -238,8 +238,8 @@
 .cover__description {
 	align-items: center;
 	position: absolute;
-	top: 245px;
-	left: 312px;
+	top: 30vh;
+	left: 25vw;
 	/* ???? */
 }
 
