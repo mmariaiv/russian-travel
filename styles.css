@@ -33,6 +33,7 @@
 	line-height: 28px;
 	color: white;
 	text-decoration: none;
+	align-self: flex-end;
 }
 
 .content-section {
@@ -80,7 +81,7 @@
 	font-size: 10px;
 	line-height: 14px;
 	letter-spacing: 1.5px;
-	margin: 0;
+	margin: 8px 0 0 0;
 }
 
 .intro {
@@ -168,7 +169,6 @@
 .place__image {
 	grid-area: image;
 	width: 460px;
-	height: 460px;
 	margin: 0;
 }
 
@@ -215,8 +215,6 @@
 	grid-area: paragraph;
 }
 
-/* что тут блять сделать то нахуй */
-
 .cover {
 	padding: 0 0 92px 0;
 	margin: 0 auto;
@@ -225,7 +223,7 @@
 }
 
 .cover__background {
-	background: url("./images/cover-trains.jpg");
+	background-image: url("./images/cover-trains.jpg");
 	width: 100%;
 	margin: 0;
 	padding: 0;
@@ -238,10 +236,11 @@
 .cover__description {
 	align-items: center;
 	position: absolute;
-	top: 30vh;
-	left: 25vw;
-	/* ???? */
+	top: 245px;
+	left: 312px;
 }
+
+/* можно через padding двигать внутренний блок с титульником и описанием */
 
 .cover__title {
 	font-style: normal;
