@@ -91,7 +91,6 @@
 
 .lead__image {
 	max-width: 100%;
-	max-height: 615px;
 	margin: 0 auto;
 }
 
@@ -387,6 +386,10 @@
 		margin-left: 48px;
 	}
 
+	.lead__image {
+		margin: 0 auto;
+	}
+
 	.header {
 		padding-bottom: 48px;
 	}
@@ -618,6 +621,10 @@
 		font-size: 18px;
 		line-height: 111%;
 		text-align: right;
+	}
+
+	.lead__image {
+		margin: 0 auto;
 	}
 
 	.header__logo {
