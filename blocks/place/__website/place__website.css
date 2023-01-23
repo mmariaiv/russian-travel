@@ -6,3 +6,11 @@
 	row-gap: 12px;
 	align-self: end;
 }
+
+@media screen and (max-width: 767px) {
+	.place__website {
+		max-width: 100%;
+		margin: 0 16px;
+		align-self: start;
+	}
+}

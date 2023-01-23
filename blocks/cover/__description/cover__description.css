@@ -4,3 +4,24 @@
 	z-index: 4;
 	position: relative;
 }
+
+@media screen and (max-width: 1279px) {
+	.cover__description {
+		padding: 195px 0;
+		margin: 0;
+	}
+}
+
+@media screen and (max-width: 1023px) {
+	.cover__description {
+		padding: 115px 0;
+		margin: 0;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.cover__description {
+		padding: 33px 0;
+		margin: 0;
+	}
+}

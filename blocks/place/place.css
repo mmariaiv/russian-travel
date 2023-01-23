@@ -8,3 +8,28 @@
 		"title url"
 		"image paragraph";
 }
+
+@media screen and (max-width: 1279px) {
+	.place {
+		grid-template-columns: 440px 1fr;
+		grid-template-rows: repeat(2, max-content);
+		column-gap: 32px;
+	}
+}
+
+@media screen and (max-width: 1023px) {
+	.place {
+		grid-template-columns: 340px 1fr;
+		grid-template-rows: repeat(2, max-content);
+		column-gap: 28px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.place {
+		margin: 0 auto;
+		display: flex;
+		flex-direction: column;
+		row-gap: 32px;
+	}
+}

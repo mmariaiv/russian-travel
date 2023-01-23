@@ -5,3 +5,26 @@
 	row-gap: 80px;
 	padding-bottom: 92px;
 }
+
+@media screen and (max-width: 1279px) {
+	.places {
+		row-gap: 80px;
+		padding-bottom: 92px;
+	}
+}
+
+@media screen and (max-width: 1023px) {
+	.places {
+		row-gap: 72px;
+		padding-bottom: 90px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.places {
+		max-width: 100%;
+		row-gap: 50px;
+		padding-bottom: 66px;
+		margin: 0 auto;
+	}
+}

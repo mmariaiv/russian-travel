@@ -4,3 +4,17 @@
 	row-gap: 26px;
 	margin: 0;
 }
+
+@media screen and (max-width: 1279px) {
+	.place__paragraphs {
+		row-gap: 25px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.place__paragraphs {
+		row-gap: 25px;
+		max-width: calc(100% - 16px * 2);
+		margin: 0 auto;
+	}
+}

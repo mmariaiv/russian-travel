@@ -7,3 +7,12 @@
 	text-decoration: none;
 	align-self: flex-end;
 }
+
+@media screen and (max-width: 767px) {
+	.header__lang-link {
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 111%;
+		text-align: right;
+	}
+}
