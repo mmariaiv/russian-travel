@@ -1,0 +1,3 @@
+.photo-section {
+	max-width: calc(100% - 48px * 2);
+}

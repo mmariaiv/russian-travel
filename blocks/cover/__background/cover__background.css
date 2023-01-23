@@ -1,0 +1,15 @@
+.cover__background {
+	margin: 0;
+	padding: 0;
+	background: rgba(42, 44, 47, 0.3);
+	width: 100%;
+	transition: background 0.7s ease-in-out;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+}
+
+.cover__background:hover {
+	background: rgba(42, 44, 47, 0.7);
+}
