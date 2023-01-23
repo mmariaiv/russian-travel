@@ -6,6 +6,7 @@
 	line-height: 106%;
 	margin: 0;
 	max-width: 100%;
+	white-space: pre-line;
 }
 
 @media screen and (max-width: 1279px) {
