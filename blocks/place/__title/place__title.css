@@ -6,12 +6,11 @@
 	line-height: 106%;
 	margin: 0;
 	max-width: 100%;
-	white-space: pre-line;
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1023px) {
 	.place__title {
-		font-weight: 900;
+		max-width: calc(100% - 10px);
 		font-size: 42px;
 		line-height: 110%;
 	}
@@ -19,7 +18,6 @@
 
 @media screen and (max-width: 767px) {
 	.place__title {
-		font-weight: 900;
 		font-size: 32px;
 		line-height: 109%;
 		text-align: start;

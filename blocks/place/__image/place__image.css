@@ -2,11 +2,5 @@
 	grid-area: image;
 	width: 100%;
 	margin: 0;
-}
-
-@media screen and (max-width: 767px) {
-	.place__image {
-		max-width: 100%;
-		margin: 0;
-	}
+	object-fit: cover;
 }

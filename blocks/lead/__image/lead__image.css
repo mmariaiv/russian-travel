@@ -1,9 +1,10 @@
 .lead__image {
 	max-width: 100%;
 	margin: 0 auto;
+	object-fit: cover;
 }
 
-@media screen and (max-width: 1279px) {
+/* @media screen and (max-width: 1279px) {
 	.lead__image {
 		margin: 0 auto;
 	}
@@ -20,4 +21,4 @@
 	.lead__image {
 		margin: 0 auto;
 	}
-}
+} */
