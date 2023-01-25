@@ -1,21 +1,21 @@
-.page_size-wide {
+.page_size_wide {
 	max-width: calc(100% - 48px * 2);
 }
 
 @media screen and (max-width: 1279px) {
-	.page_size-wide {
+	.page_size_wide {
 		max-width: calc(100% - 48px * 2);
 	}
 }
 
 @media screen and (max-width: 1023px) {
-	.page_size-wide {
+	.page_size_wide {
 		max-width: calc(100% - 24px * 2);
 	}
 }
 
 @media screen and (max-width: 767px) {
-	.page_size-wide {
+	.page_size_wide {
 		max-width: calc(100% - 16px * 2);
 	}
 }
