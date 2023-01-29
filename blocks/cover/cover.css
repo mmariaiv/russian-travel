@@ -2,6 +2,7 @@
 	padding: 0;
 	margin: 0 auto;
 	min-height: 740px;
+	max-width: calc(100% - 48px * 2);
 }
 
 @media screen and (max-width: 1279px) {

@@ -4,11 +4,13 @@
 	display: flex;
 	justify-content: space-between;
 	padding-bottom: 24px;
+	max-width: calc(100% - 48px * 2);
 }
 
 @media screen and (max-width: 1023px) {
 	.footer {
 		padding-top: 90px;
+		max-width: calc(100% - 24px * 2);
 	}
 }
 
@@ -17,5 +19,6 @@
 		flex-direction: column;
 		gap: 48px;
 		padding-top: 64px;
+		max-width: calc(100% - 16px * 2);
 	}
 }
