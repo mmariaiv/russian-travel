@@ -1,6 +1,6 @@
 # Проект: Путешествие по России
 
-<img src="https://github.com/mmariaiv/russian-travel/assets/94047579/ab9f6a64-a0aa-4b06-bdd0-f13bc2aa744d" alt="project_screenshot"> 
+<img src="https://github.com/mmariaiv/russian-travel/assets/94047579/90525023-e2de-4f10-a167-87c372faf4c7" alt="russian-travel"/>
 
 ## Описание проектной работы
 
